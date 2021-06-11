@@ -196,8 +196,11 @@ shape = SubResource( 32 )
 
 [node name="PlayerCamera" type="Camera2D" parent="."]
 current = true
+zoom = Vector2( 0.5, 0.5 )
 
-[node name="Pointer" type="Sprite" parent="."]
+[node name="Pointer" type="Node2D" parent="."]
 position = Vector2( 13.105, 0.264565 )
+
+[node name="PointerSprite" type="Sprite" parent="Pointer"]
 rotation = 3.14159
 texture = ExtResource( 5 )

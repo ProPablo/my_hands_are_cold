@@ -19,7 +19,9 @@ orbit_velocity_random = 0.0
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-speed = 115
+position = Vector2( -1, 0 )
+SPEED = 57
+POINTER_RADIUS = 15
 
 [node name="Ground" type="TileMap" parent="."]
 z_index = -1
